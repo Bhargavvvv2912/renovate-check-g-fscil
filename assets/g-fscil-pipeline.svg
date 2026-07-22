@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="330" viewBox="0 0 1500 330" role="img" aria-labelledby="title desc">
+  <title id="title">G-FSCIL pipeline</title>
+  <desc id="desc">Four stages: synthetic candidates, knowledge curation, prototype initialization, and boundary calibration.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8B5CF6"/><stop offset="0.5" stop-color="#3B82F6"/><stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0F172A" flood-opacity="0.13"/></filter>
+  </defs>
+  <rect width="1500" height="330" rx="30" fill="#F8FAFC"/>
+  <path d="M255 165 H1245" stroke="url(#line)" stroke-width="8" stroke-linecap="round" opacity="0.28"/>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle" filter="url(#shadow)">
+    <g transform="translate(70 67)">
+      <rect width="300" height="196" rx="24" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="2"/>
+      <circle cx="150" cy="58" r="34" fill="#F1EDFF"/>
+      <g fill="#8B5CF6"><circle cx="134" cy="53" r="7"/><circle cx="154" cy="43" r="6" opacity=".7"/><circle cx="166" cy="64" r="8" opacity=".55"/><circle cx="138" cy="72" r="5" opacity=".75"/></g>
+      <text x="150" y="122" fill="#1E293B" font-size="21" font-weight="700">Synthetic Candidates</text>
+      <text x="150" y="153" fill="#64748B" font-size="16">class inversion + caching</text>
+    </g>
+    <g transform="translate(423 67)">
+      <rect width="300" height="196" rx="24" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="2"/>
+      <circle cx="150" cy="58" r="34" fill="#EAF3FF"/>
+      <path d="M132 58 L145 71 170 43" fill="none" stroke="#3B82F6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="150" y="122" fill="#1E293B" font-size="21" font-weight="700">Knowledge Curation</text>
+      <text x="150" y="153" fill="#64748B" font-size="16">semantic + diversity aware</text>
+    </g>
+    <g transform="translate(776 67)">
+      <rect width="300" height="196" rx="24" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2"/>
+      <circle cx="150" cy="58" r="34" fill="#E8F7FC"/>
+      <circle cx="139" cy="60" r="9" fill="#0284C7"/><circle cx="160" cy="48" r="8" fill="#38BDF8"/><circle cx="163" cy="70" r="7" fill="#7DD3FC"/>
+      <text x="150" y="122" fill="#1E293B" font-size="21" font-weight="700">Prototype Insertion</text>
+      <text x="150" y="153" fill="#64748B" font-size="16">synthetic-informed init</text>
+    </g>
+    <g transform="translate(1129 67)">
+      <rect width="300" height="196" rx="24" fill="#FFFFFF" stroke="#99F6E4" stroke-width="2"/>
+      <circle cx="150" cy="58" r="34" fill="#E6FAF6"/>
+      <path d="M128 68 C139 43 160 43 173 67 M128 48 C141 73 162 73 173 47" fill="none" stroke="#0D9488" stroke-width="5" stroke-linecap="round"/>
+      <text x="150" y="122" fill="#1E293B" font-size="21" font-weight="700">Boundary Calibration</text>
+      <text x="150" y="153" fill="#64748B" font-size="16">old ↔ new stabilization</text>
+    </g>
+  </g>
+
+  <g fill="#FFFFFF" stroke-width="4">
+    <circle cx="397" cy="165" r="15" stroke="#6D67ED"/><path d="M392 158 L400 165 392 172" fill="none" stroke="#6D67ED" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="750" cy="165" r="15" stroke="#438EE5"/><path d="M745 158 L753 165 745 172" fill="none" stroke="#438EE5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1103" cy="165" r="15" stroke="#1AA9B2"/><path d="M1098 158 L1106 165 1098 172" fill="none" stroke="#1AA9B2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
