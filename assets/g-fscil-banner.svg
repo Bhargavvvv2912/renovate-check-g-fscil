@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="470" viewBox="0 0 1600 470" role="img" aria-labelledby="title desc">
+  <title id="title">G-FSCIL project banner</title>
+  <desc id="desc">A dark gradient banner visualizing curated synthetic knowledge for generalizable few-shot class-incremental learning.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1020"/>
+      <stop offset="0.52" stop-color="#17153A"/>
+      <stop offset="1" stop-color="#072F3A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A78BFA"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#6D5DFB" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#6D5DFB" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#020617" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="470" rx="30" fill="url(#bg)"/>
+  <circle cx="210" cy="70" r="250" fill="url(#glow)" filter="url(#blur)"/>
+  <circle cx="1460" cy="390" r="300" fill="#14B8A6" opacity="0.1" filter="url(#blur)"/>
+
+  <g opacity="0.35" fill="none" stroke="#93C5FD">
+    <path d="M60 370 C250 250 355 430 545 300 S845 195 1000 300 1285 405 1540 230"/>
+    <path d="M60 395 C245 315 365 445 545 335 S850 250 1020 345 1315 430 1540 295" opacity="0.45"/>
+  </g>
+
+  <g transform="translate(94 72)">
+    <rect x="0" y="0" width="230" height="46" rx="23" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <circle cx="27" cy="23" r="6" fill="#2DD4BF"/>
+    <text x="46" y="30" fill="#DDE8FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="600" letter-spacing="1.1">ACM MM 2026</text>
+
+    <text x="0" y="143" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="76" font-weight="760" letter-spacing="-2">G-FSCIL</text>
+    <rect x="1" y="168" width="590" height="7" rx="3.5" fill="url(#accent)"/>
+    <text x="0" y="227" fill="#C9D7F2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="29" font-weight="520">Curate what you generate.</text>
+    <text x="0" y="270" fill="#8FA6C9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Stable incremental learning from weak base priors</text>
+  </g>
+
+  <g transform="translate(1045 82)" filter="url(#shadow)">
+    <rect width="430" height="305" rx="28" fill="#FFFFFF" fill-opacity="0.075" stroke="#FFFFFF" stroke-opacity="0.15"/>
+
+    <g transform="translate(42 48)">
+      <g fill="#A78BFA">
+        <circle cx="18" cy="18" r="12" opacity="0.45"/><circle cx="59" cy="9" r="8" opacity="0.65"/><circle cx="93" cy="27" r="11" opacity="0.4"/>
+        <circle cx="28" cy="61" r="9" opacity="0.75"/><circle cx="72" cy="63" r="13" opacity="0.5"/><circle cx="110" cy="57" r="7" opacity="0.8"/>
+      </g>
+      <path d="M142 36 H205" stroke="#8FA6C9" stroke-width="3" stroke-linecap="round"/>
+      <path d="M194 25 L207 36 194 47" fill="none" stroke="#8FA6C9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <g transform="translate(235 4)">
+        <circle cx="26" cy="27" r="21" fill="#2DD4BF" opacity="0.9"/>
+        <circle cx="77" cy="51" r="18" fill="#60A5FA" opacity="0.9"/>
+        <circle cx="112" cy="13" r="15" fill="#A78BFA" opacity="0.9"/>
+        <path d="M41 37 L61 45 M92 37 L104 24" stroke="#D9F7F2" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+      </g>
+    </g>
+
+    <g transform="translate(46 164)">
+      <rect width="338" height="88" rx="18" fill="#061525" fill-opacity="0.65"/>
+      <circle cx="44" cy="44" r="22" fill="#2DD4BF" fill-opacity="0.16" stroke="#2DD4BF" stroke-width="2"/>
+      <path d="M33 44 L41 52 56 35" fill="none" stroke="#5EEAD4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="82" y="38" fill="#F4F7FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650">Trustworthy supports</text>
+      <text x="82" y="64" fill="#8FA6C9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">semantic · diverse · reusable</text>
+    </g>
+  </g>
+</svg>
