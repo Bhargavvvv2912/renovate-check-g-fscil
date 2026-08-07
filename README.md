@@ -1,14 +1,17 @@
 <div align="center">
 
+<img src="assets/g-fscil-banner.svg" width="100%" alt="G-FSCIL: ACM Multimedia 2026 Oral Presentation">
+
 # Learning to Curate What You Generate for Generalizable Few-Shot Class-Incremental Learning
 
-### Official PyTorch Implementation · ACM Multimedia 2026
+### Official PyTorch Implementation · ACM Multimedia 2026 Oral Presentation
 
 **Junhui Yin<sup>\*</sup>, Yuchen Yang<sup>\*</sup>, Yilin Yin, Shuai Na, Haoran Xi, Jianhua Yang<sup>†</sup>, Muyi Sun, Man Zhang, Shengfeng He**
 
 <sup>\*</sup> Equal contribution &nbsp;&nbsp; <sup>†</sup> Corresponding author
 
 [![Conference](https://img.shields.io/badge/ACM%20Multimedia-2026-7b2cbf.svg)](https://2026.acmmm.org/)
+[![Oral](https://img.shields.io/badge/ACM%20MM%202026-Oral%20Presentation-F59E0B.svg)](https://2026.acmmm.org/)
 [![DOI](https://img.shields.io/badge/DOI-10.1145%2F3767308.3836063-00629B.svg)](https://doi.org/10.1145/3767308.3836063)
 [![Python](https://img.shields.io/badge/Python-3.10-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.7.1-EE4C2C.svg?logo=pytorch&logoColor=white)](https://pytorch.org/)
@@ -47,15 +50,11 @@ Class inversion and image generation are performed once when a class is first
 observed. The resulting class condition and candidate pool are cached and can
 be reused across later runs, seeds, and ablations.
 
-```mermaid
-flowchart LR
-    A["Few-shot real samples"] --> B["Class inversion"]
-    B --> C["Synthetic candidate pool"]
-    C --> D["Semantic and diversity curation"]
-    D --> E["Transferable policy scorer"]
-    E --> F["Prototype enhancement"]
-    F --> G["Boundary-stable adaptation"]
-```
+<p align="center">
+  <img src="assets/g-fscil-pipeline.svg" width="100%" alt="G-FSCIL method pipeline">
+</p>
+
+<p align="center"><sub>From cached synthetic candidates to trustworthy knowledge curation and boundary-stable incremental adaptation.</sub></p>
 
 ## G-FSCIL Protocols
 
@@ -85,6 +84,12 @@ metrics are evaluated after session 19.
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | CUB-200-2011 | 97.12 | **81.91** | 78.01 | **82.30** | 87.65 | 77.57 |
 | ImageNet-R | 89.71 | **73.09** | 70.05 | **72.29** | 74.41 | 70.29 |
+
+<p align="center">
+  <img src="assets/g-fscil-results.svg" width="100%" alt="Session-wise G-FSCIL accuracy on CUB-200-2011 and ImageNet-R">
+</p>
+
+<p align="center"><sub>Top-1 accuracy across all 20 sessions for the latest complete runs (seed 2024).</sub></p>
 
 <details>
 <summary><b>Session-wise top-1 accuracy curves</b></summary>
