@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "G-FSCIL: Learning to Curate What You Generate"
+type: software
+authors:
+  - family-names: Yin
+    given-names: Junhui
+  - family-names: Yang
+    given-names: Yuchen
+  - family-names: Yin
+    given-names: Yilin
+  - family-names: Na
+    given-names: Shuai
+  - family-names: XI
+    given-names: Haoran
+  - family-names: Yang
+    given-names: Jianhua
+  - family-names: Sun
+    given-names: Muyi
+  - family-names: Zhang
+    given-names: Man
+  - family-names: He
+    given-names: Shengfeng
+repository-code: "https://github.com/NiHaoWoJiaoYYC/G-FSCIL"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Learning to Curate What You Generate: Generalizable Few-Shot Class-Incremental Learning"
+  authors:
+    - family-names: Yin
+      given-names: Junhui
+    - family-names: Yang
+      given-names: Yuchen
+    - family-names: Yin
+      given-names: Yilin
+    - family-names: Na
+      given-names: Shuai
+    - family-names: XI
+      given-names: Haoran
+    - family-names: Yang
+      given-names: Jianhua
+    - family-names: Sun
+      given-names: Muyi
+    - family-names: Zhang
+      given-names: Man
+    - family-names: He
+      given-names: Shengfeng
+  collection-title: "Proceedings of the 34th ACM International Conference on Multimedia"
+  year: 2026

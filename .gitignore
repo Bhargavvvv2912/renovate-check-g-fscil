@@ -1,0 +1,21 @@
+# macOS and Python caches
+.DS_Store
+**/.DS_Store
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Experiment outputs and large local artifacts
+/outputs/
+/saved_model/
+/data/
+
+# Downloaded model assets
+/models/bert/
+/models/ldm/text2img-large/model.ckpt
+
+# Local environments and editor files
+.venv/
+venv/
+.idea/
+.vscode/
