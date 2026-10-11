@@ -31,4 +31,4 @@ accelerate==1.10.0
 kornia==0.8.1
 taming-transformers-rom1504==0.0.6
 # Repository checks
-pytest==8.4.1
+pytest==8.4.2
