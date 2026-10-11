@@ -14,7 +14,7 @@ tqdm==4.66.4
 # CLIP-powered semantic and diversity scoring
 openai-clip==1.0.1
 ftfy==6.3.1
-regex==2025.7.33
+regex==2025.11.3
 # DDDR-style class inversion and latent-diffusion sampling
 omegaconf==2.3.0
 antlr4-python3-runtime==4.9.3
