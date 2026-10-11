@@ -3,7 +3,7 @@
 # Python 3.10 is recommended. For an NVIDIA-specific PyTorch wheel, install
 # torch/torchvision first as documented in README.md, then install this file.
 # Vision backbone and training (aligned with the environment used by this repo)
-torch==2.7.1
+torch==2.14.1
 torchvision==0.22.1
 timm==1.0.19
 numpy==2.0.2
