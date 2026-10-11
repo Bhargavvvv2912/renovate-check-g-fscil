@@ -17,7 +17,7 @@ ftfy==6.3.1
 regex==2025.7.33
 # DDDR-style class inversion and latent-diffusion sampling
 omegaconf==2.3.0
-antlr4-python3-runtime==4.9.3
+antlr4-python3-runtime==4.13.2
 PyYAML==6.0.2
 einops==0.8.1
 pytorch-lightning==2.5.5
