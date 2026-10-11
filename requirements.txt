@@ -27,7 +27,7 @@ transformers==4.55.0
 tokenizers==0.21.4
 huggingface-hub==0.34.4
 safetensors==0.6.2
-accelerate==1.10.0
+accelerate==1.15.0
 kornia==0.8.1
 taming-transformers-rom1504==0.0.6
 # Repository checks
