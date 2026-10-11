@@ -24,7 +24,7 @@ pytorch-lightning==2.5.5
 lightning-utilities==0.15.2
 torchmetrics==1.8.2
 transformers==4.55.0
-tokenizers==0.21.4
+tokenizers==0.23.3
 huggingface-hub==0.34.4
 safetensors==0.6.2
 accelerate==1.10.0
