@@ -1,0 +1,25 @@
+name: renovate
+# No schedule: on a private repository every run spends Actions minutes, and
+# a half-hourly run across fifty repositories spends the month's quota in a
+# day. Renovate runs once at setup, after every merge -- so pull requests left
+# behind are rebased promptly, as Dependabot does on its own -- and when
+# collect() starts it again.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+concurrency:
+  group: renovate
+  cancel-in-progress: false
+jobs:
+  renovate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: renovatebot/github-action@v46.3.7
+        with:
+          token: ${{ secrets.RENOVATE_TOKEN }}
+        env:
+          RENOVATE_REPOSITORIES: ${{ github.repository }}
+          RENOVATE_ONBOARDING: "false"
+          RENOVATE_REQUIRE_CONFIG: "required"
+          LOG_LEVEL: info

@@ -2,7 +2,6 @@
 # ASP backbone + CLIP curation + DDDR-style latent-diffusion generation.
 # Python 3.10 is recommended. For an NVIDIA-specific PyTorch wheel, install
 # torch/torchvision first as documented in README.md, then install this file.
-
 # Vision backbone and training (aligned with the environment used by this repo)
 torch==2.7.1
 torchvision==0.22.1
@@ -12,12 +11,10 @@ Pillow==11.3.0
 scipy==1.14.1
 scikit-learn==1.7.1
 tqdm==4.66.4
-
 # CLIP-powered semantic and diversity scoring
 openai-clip==1.0.1
 ftfy==6.3.1
 regex==2025.7.33
-
 # DDDR-style class inversion and latent-diffusion sampling
 omegaconf==2.3.0
 antlr4-python3-runtime==4.9.3
@@ -33,6 +30,5 @@ safetensors==0.6.2
 accelerate==1.10.0
 kornia==0.8.1
 taming-transformers-rom1504==0.0.6
-
 # Repository checks
 pytest==8.4.1
